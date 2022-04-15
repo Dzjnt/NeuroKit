@@ -38,7 +38,7 @@ Here is some `more information <https://docs.conda.io/projects/conda/en/latest/u
 
 .. Note:: There should be a name in parentheses before your user's directory, e.g. ``(base) C:\Users\<yourusername>``. That is the name of your computing environment. By default, you have a ``base environment``. We don't want that, so create an environment.
 
-4. Run :code:`conda env create <yourenvname>`; activate it every time you open up conda by running :code:`conda activate <yourenvname>`
+4. Run :code:`conda env create --name <yourenvname>`; activate it every time you open up conda by running :code:`conda activate  <yourenvname>`
 5. Now you can proceed to :ref:`install the NeuroKit2 package<Instructions for users with a Python installation>`
 
 
